@@ -1,0 +1,4 @@
+
+Q: Explain how method_missing works. Show an example. 
+
+A: I'm not sure what method_missing is referring to here.  I'm guessing that it's referring to an error message in Ruby on Rails, produced when you try to access a view for which there is no method defined in the corresponding controller. 

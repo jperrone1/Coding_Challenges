@@ -1,0 +1,11 @@
+
+Q: Explain how MVC works. Why is it beneficial? Diagrams, please. 
+
+A: MVC stands for Model, View, Controller.  It is an approach to producing web applications. 
+
+The Model represents the data model of the application. 
+
+The View represents the way the information is presented to the user of the web app. 
+
+The Controller contains the logic that processes the data and feeds the information to the view. 
+

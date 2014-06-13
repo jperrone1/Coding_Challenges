@@ -1,1 +1,7 @@
-API.txt
+
+Q: Explain how APIs work. In detail. Diagrams would be helpful. 
+
+A: API stands for Application Programmer Interface.  It represents a specification for how to send and receive information to and from some type of software service, and generally, more specifically, how to call one or more functions provided by that service. 
+
+In the case of APIs designed to provide information, such as the Online Movie DataBase API (omdbapi), a properly formatted query in the form of a URL with parameters is sent to the server, and data is returned in a specified format.  In the case of omdbapi, as a JSON object in the form of a hash with a single key to a value which is an array of key - value pairs containing the information provided by that API call. 
+

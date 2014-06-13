@@ -1,0 +1,4 @@
+
+Q: What is the purpose of yield? Show an example. 
+
+A: Yield turns over execution control to another file.  An example of this is in a RoR layout view, in which control is turned over to the relevant view file for that call. 
