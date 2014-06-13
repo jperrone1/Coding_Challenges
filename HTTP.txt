@@ -1,0 +1,9 @@
+Q: Explain how HTTP works in detail.  Use diagrams. 
+
+A: HTTP stands for HyperText Transfer Protocol.  It is a standard for communications between a client and a server across a network.  Typically, the client is represented by a personal computer running a browser, such as Chrome, and the server is represented by a computer running server software such as Apache. 
+
+A server is set up with a specific network address (an Internet Protocol, or IP address) This IP address is typically also represented by a URL, or Universal Resource Locator, in the form of a string of text such as www.cats.com.  That address gets resolved into an IP address by a specialized server known as a Domain Name Server. 
+
+The server has a file structure that contains descriptions of web pages, and usually includes a database.  When a client computer sends a request over the network (in the form of packets of information represented by bits of information), the server software interprets that request and pulls up resources that correspond to the request from the client.  Typically, this would include accessing HTML files, CSS files, JavaScript files, and other assets, such as images and results from database calls. 
+
+The client then transmits the data across the network along with a response code and other header information to the client.  Since HTTP is a stateless protocol, the server doesn't save the state of the session with the client, but responds anew to each request from the client. 
